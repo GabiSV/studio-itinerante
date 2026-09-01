@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Studio Itinerante | Cultura que se move</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header class="menu">
+        <div class="logo">
+            STUDIO<br>
+            <span>ITINERANTE</span>
+        </div>
+
+        <nav>
+            <a href="#sobre">O Studio</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#equipe">Quem Somos</a>
+            <a href="#impacto">Impacto</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+
+    <!-- PRIMEIRA TELA -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="mini-titulo">
+                    CULTURA • MÚSICA • TERRITÓRIO
+                </p>
+
+                <h1>
+                    CULTURA<br>
+                    QUE SE <span>MOVE.</span>
+                </h1>
+
+                <p class="descricao">
+                    Um movimento cultural que conecta artistas,
+                    territórios e oportunidades através da música,
+                    da arte e da cultura periférica.
+                </p>
+
+                <div class="botoes">
+
+                    <a href="#sobre" class="botao principal">
+                        CONHEÇA O STUDIO
+                    </a>
+
+                    <a href="#projetos" class="botao secundario">
+                        NOSSOS PROJETOS
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-frase">
+
+                <p>
+                    ARTISTAS QUE<br>
+                    <strong>OCUPAM.</strong>
+                </p>
+
+                <p>
+                    VOZES QUE<br>
+                    <strong>TRANSFORMAM.</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
+
+            <div class="titulo-secao">
+                <span>01</span>
+                <h2>SOBRE O<br><strong>STUDIO</strong></h2>
+            </div>
+
+            <div class="texto-sobre">
+
+                <p class="destaque">
+                    Mais do que um espaço físico,
+                    o Studio Itinerante é uma
+                    <strong>ideia em movimento.</strong>
+                </p>
+
+                <p>
+                    O Studio Itinerante é um projeto cultural
+                    idealizado por Gaabi Vieira, artista,
+                    cantora, compositora e produtora cultural,
+                    criado a partir da necessidade de aproximar
+                    a produção artística das pessoas e dos
+                    territórios onde a cultura acontece todos
+                    os dias.
+                </p>
+
+                <p>
+                    O projeto conecta artistas, produtores,
+                    músicos e comunidade, valorizando artistas
+                    independentes e criando oportunidades para
+                    que novas vozes possam ocupar espaços,
+                    serem ouvidas e desenvolverem seus trabalhos.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE -->
+        <section class="frase-impacto">
+
+            <p>
+                A PERIFERIA
+                <span>TEM VOZ.</span>
+            </p>
+
+            <p>
+                TEM TALENTO.
+            </p>
+
+            <p>
+                TEM PRODUÇÃO.
+            </p>
+
+            <p>
+                TEM HISTÓRIA.
+            </p>
+
+        </section>
+
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="projetos">
+
+            <div class="titulo-secao">
+                <span>02</span>
+                <h2>NOSSOS<br><strong>PROJETOS</strong></h2>
+            </div>
+
+            <div class="projeto-card">
+
+                <div class="numero-projeto">
+                    01
+                </div>
+
+                <div>
+
+                    <p class="categoria">
+                        STUDIO ITINERANTE APRESENTA
+                    </p>
+
+                    <h3>
+                        VOZES DA<br>
+                        <span>PERIFERIA</span>
+                    </h3>
+
+                    <p>
+                        Um encontro artístico voltado à valorização
+                        da cultura urbana e periférica através da
+                        música e da conexão entre diferentes artistas.
+                    </p>
+
+                    <a href="#" class="link-projeto">
+                        CONHECER PROJETO →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EQUIPE -->
+        <section id="equipe" class="equipe">
+
+            <div class="titulo-secao">
+                <span>03</span>
+                <h2>QUEM<br><strong>CONSTRÓI</strong></h2>
+            </div>
+
+            <p class="texto-central">
+                Três trajetórias diferentes.
+                <strong>Um propósito coletivo.</strong>
+            </p>
+
+            <div class="equipe-grid">
+
+    <!-- GAABI -->
+    <div class="pessoa artista-clicavel" onclick="abrirArtista('gaabi')">
+
+        <div class="foto-artista">
+            <img src="images/gaabi.jpg" alt="Gaabi Vieira">
+            <div class="overlay-foto">
+                <span>CONHEÇA →</span>
+            </div>
+        </div>
+
+        <h3>GAABI VIEIRA</h3>
+
+        <p>
+            MC • COMPOSITORA<br>
+            PRODUTORA CULTURAL
+        </p>
+
+    </div>
+
+
+    <!-- ELCIO -->
+    <div class="pessoa artista-clicavel" onclick="abrirArtista('elcio')">
+
+        <div class="foto-artista">
+            <img src="images/elcio.jpg" alt="Elcio Alves">
+            <div class="overlay-foto">
+                <span>CONHEÇA →</span>
+            </div>
+        </div>
+
+        <h3>ELCIO ALVES</h3>
+
+        <p>
+            RAPPER • COMPOSITOR<br>
+            RECONSTRUÇÃO EM VERSOS
+        </p>
+
+    </div>
+
+
+    <!-- SENSI -->
+    <div class="pessoa artista-clicavel" onclick="abrirArtista('sensi')">
+
+        <div class="foto-artista">
+            <img src="images/sensi.jpg" alt="Sensi Milla">
+            <div class="overlay-foto">
+                <span>CONHEÇA →</span>
+            </div>
+        </div>
+
+        <h3>SENSI MILLA</h3>
+
+        <p>
+            MC • COMPOSITORA<br>
+            PRODUTORA CULTURAL
+        </p>
+
+    </div>
+
+</div>
+        </section>
+
+
+        <!-- MANIFESTO -->
+        <section class="manifesto">
+
+            <p class="mini-titulo">
+                NOSSO MANIFESTO
+            </p>
+
+            <h2>
+                A CULTURA<br>
+                <span>JÁ EXISTE.</span>
+            </h2>
+
+            <p>
+                Ela está na rua.<br>
+                Na quebrada.<br>
+                No estúdio.<br>
+                No palco improvisado.
+            </p>
+
+            <p class="grande">
+                NÓS PODEMOS<br>
+                <strong>LEVÁ-LA.</strong>
+            </p>
+
+        </section>
+
+
+        <!-- IMPACTO -->
+        <section id="impacto" class="impacto">
+
+            <div class="titulo-secao">
+                <span>04</span>
+                <h2>NOSSO<br><strong>IMPACTO</strong></h2>
+            </div>
+
+            <div class="impacto-grid">
+
+                <div>
+                    <strong>+</strong>
+                    <p>ARTISTAS</p>
+                </div>
+
+                <div>
+                    <strong>+</strong>
+                    <p>EVENTOS</p>
+                </div>
+
+                <div>
+                    <strong>+</strong>
+                    <p>CONEXÕES</p>
+                </div>
+
+                <div>
+                    <strong>+</strong>
+                    <p>OPORTUNIDADES</p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+
+            <p class="mini-titulo">
+                VAMOS CONSTRUIR JUNTOS?
+            </p>
+
+            <h2>
+                FAÇA PARTE<br>
+                <span>DO MOVIMENTO.</span>
+            </h2>
+
+            <a href="mailto:seuemail@email.com" class="botao principal">
+                ENTRE EM CONTATO
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="logo">
+            STUDIO<br>
+            <span>ITINERANTE</span>
+        </div>
+
+        <p>
+            São Paulo — SP
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
